@@ -24,7 +24,7 @@ while done == False:
             done = True                     # Flag that we are done so we exit this loop
 
     # Update sprites here
-
+    screen.blit(background_image, [0,0])
     pygame.display.flip()                   # Go ahead and update the screen with what we've drawn.
     clock.tick(20)                          # Limit to 20 frames per second
 
