@@ -1,7 +1,7 @@
 # Basic Pygame Structure
 
 import pygame                               # Imports pygame and other libraries
-
+import random
 # Define Classes (sprites) here
 
 pygame.init()                               # Pygame is initialised (starts running)
